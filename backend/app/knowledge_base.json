@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "tema": "educação",
+    "texto": "Uma boa redação sobre educação deve destacar a importância do acesso universal ao ensino, mencionar políticas públicas e sugerir soluções realistas.",
+    "dicas": [
+      "Use dados estatísticos sobre analfabetismo.",
+      "Inclua referências a autores como Paulo Freire."
+    ]
+  },
+  {
+    "id": 2,
+    "tema": "meio ambiente",
+    "texto": "Textos sobre meio ambiente devem abordar sustentabilidade, mudanças climáticas e ações individuais e coletivas.",
+    "dicas": [
+      "Cite conferências internacionais como COP-26.",
+      "Faça conexões com políticas ambientais brasileiras."
+    ]
+  }
+]
