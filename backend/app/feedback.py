@@ -20,7 +20,7 @@ def generate_feedback(user_text: str, contextos: list):
 
     Com base nos contextos, forneça feedback detalhado sobre a redação,
     incluindo pontos fortes e sugestões de melhoria.
-    também inclua a possível pontuação do texto apresentado, de zero a 1000
+    também inclua a possível pontuação do texto apresentado, de zero a 1000 e com base nas competencias da base de conhecimento
     """
 
     response = client.models.generate_content(
