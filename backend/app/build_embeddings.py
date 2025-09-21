@@ -25,6 +25,6 @@ index = faiss.IndexFlatL2(dimension)
 index.add(np.array(embeddings, dtype="float32"))
 
 # Salva índice
-faiss.write_index(index, config.INDEX_PATH)
+faiss.write_index(index, str(config.INDEX_PATH))
 
 print("Índice FAISS criado com sucesso!")

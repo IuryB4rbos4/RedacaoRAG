@@ -5,37 +5,51 @@ import faiss
 from sentence_transformers import SentenceTransformer
 from app import config
 
-# Inicializa modelo de embeddings
-model = SentenceTransformer(config.EMBEDDING_MODEL)
-
-# Carrega knowledge base
+# Carrega knowledge base principal
 with open(config.DATA_PATH, "r", encoding="utf-8") as f:
     knowledge_base = json.load(f)
+
+with open(config.DATA_PATH_COMPETENCIAS, "r", encoding="utf-8") as f:
+    competencias_base = json.load(f)
+
+# Inicializa modelo de embeddings
+model = SentenceTransformer(config.EMBEDDING_MODEL)
 
 # Carrega índice FAISS
 if not os.path.exists(config.INDEX_PATH):
     raise FileNotFoundError("Índice FAISS não encontrado. Execute build_embeddings.py primeiro.")
 
-index = faiss.read_index(config.INDEX_PATH)
+index = faiss.read_index(str(config.INDEX_PATH))
 
-def retrieve(query: str, top_k: int = 3, tema_filter: str = None):
+def retrieve(query: str, top_k: int = 3, tema_filter: str = None, include_secondary: bool = True):
+    """
+    Retorna resultados similares ao query da knowledge_base (FAISS) 
+    e, opcionalmente, adiciona itens da secondary_base.
+    """
     query_embedding = model.encode([query], convert_to_numpy=True)
     distances, indices = index.search(np.array(query_embedding, dtype="float32"), top_k)
 
     results = []
     seen_ids = set()
+
+    # Resultados da knowledge_base
     for idx in indices[0]:
+        if idx < 0 or idx >= len(knowledge_base):
+            continue
         item = knowledge_base[idx]
+        if tema_filter and item["tema"] != tema_filter:
+            continue
         if item["id"] not in seen_ids:
+            results.append(item)
+            seen_ids.add(item["id"])
+
+    # Adiciona base secundária sempre que solicitado
+    if include_secondary:
+        for item in competencias_base:
             if tema_filter and item["tema"] != tema_filter:
                 continue
-            results.append({
-                "id": item["id"],
-                "tema": item["tema"],
-                "tipo": item["tipo"],
-                "texto": item["texto"],
-                "criterios": item.get("criterios", {}),
-                "dicas": item.get("dicas", [])
-            })
-            seen_ids.add(item["id"])
+            if item["id"] not in seen_ids:
+                results.append(item)
+                seen_ids.add(item["id"])
+
     return results
