@@ -1,5 +1,6 @@
 fastapi
 uvicorn
-pydantic
-openai
 faiss-cpu
+requests
+numpy
+sentence-transformers

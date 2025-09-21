@@ -2,19 +2,104 @@
   {
     "id": 1,
     "tema": "educação",
-    "texto": "Uma boa redação sobre educação deve destacar a importância do acesso universal ao ensino, mencionar políticas públicas e sugerir soluções realistas.",
+    "tipo": "exemplo",
+    "texto": "Uma boa redação sobre educação deve destacar a importância do acesso universal ao ensino, mencionar políticas públicas e sugerir soluções realistas para reduzir a desigualdade educacional.",
+    "criterios": {
+      "coerencia_coesao": "Uso correto de conectores, sequência lógica de ideias, transição clara entre parágrafos.",
+      "estrutura_argumentativa": "Introdução com tese, desenvolvimento com argumentos consistentes, conclusão que retoma a tese.",
+      "ortografia_sintaxe": "Ortografia correta, concordância verbal e nominal adequada.",
+      "repertorio": "Dados do IBGE, referências a Paulo Freire e políticas públicas brasileiras."
+    },
     "dicas": [
-      "Use dados estatísticos sobre analfabetismo.",
-      "Inclua referências a autores como Paulo Freire."
+      "Inclua mais dados estatísticos sobre analfabetismo.",
+      "Verifique se há progressão lógica entre os parágrafos (coerência).",
+      "Use conectivos para melhorar a coesão (portanto, entretanto, assim, além disso).",
+      "Organize a redação em introdução, desenvolvimento e conclusão (estrutura argumentativa).",
+      "Revise ortografia e sintaxe cuidadosamente.",
+      "Sugira exemplos concretos ou dados estatísticos sobre educação no Brasil.",
+      "Inclua referências a autores ou pensadores como Paulo Freire.",
+      "Conecte melhor os parágrafos com advérbios de ligação."
     ]
   },
   {
     "id": 2,
     "tema": "meio ambiente",
-    "texto": "Textos sobre meio ambiente devem abordar sustentabilidade, mudanças climáticas e ações individuais e coletivas.",
+    "tipo": "exemplo",
+    "texto": "Textos sobre meio ambiente devem abordar sustentabilidade, mudanças climáticas e ações individuais e coletivas, relacionando problemas globais e soluções locais.",
+    "criterios": {
+      "coerencia_coesao": "Ideias bem encadeadas, evitando saltos abruptos de assunto.",
+      "estrutura_argumentativa": "Problema, causas, consequências e soluções bem delineadas.",
+      "ortografia_sintaxe": "Evite frases muito longas, atenção a regência e concordância.",
+      "repertorio": "Inclua conferências internacionais (COP-26), políticas brasileiras e dados recentes."
+    },
     "dicas": [
-      "Cite conferências internacionais como COP-26.",
-      "Faça conexões com políticas ambientais brasileiras."
+      "Use exemplos de ações individuais e governamentais.",
+      "Explique termos técnicos quando necessário.",
+      "Garanta que os parágrafos sigam uma linha lógica de raciocínio (coerência).",
+      "Use conectivos e frases de transição (coesão).",
+      "Estruture seu texto em introdução, desenvolvimento e conclusão.",
+      "Corrija erros de ortografia e concordância.",
+      "Traga exemplos de políticas ambientais ou conferências internacionais como COP-26.",
+      "Inclua sugestões de ações práticas que cidadãos podem adotar."
+    ]
+  },
+  {
+    "id": 3,
+    "tema": "saúde",
+    "tipo": "dica",
+    "texto": "Ao escrever sobre saúde, destaque prevenção, políticas públicas e impactos sociais das doenças.",
+    "criterios": {
+      "coerencia_coesao": "Conecte causas e consequências de forma clara.",
+      "estrutura_argumentativa": "Introdução com tese clara, desenvolvimento com argumentos apoiados em dados, conclusão reforçando soluções.",
+      "ortografia_sintaxe": "Evite erros de grafia e pontuação inadequada.",
+      "repertorio": "Referências ao SUS, OMS e dados estatísticos nacionais."
+    },
+    "dicas": [
+      "Cite políticas de saúde pública brasileiras.",
+      "Utilize exemplos atuais e relevantes.",      "Mantenha sequência lógica de ideias (coerência).",
+      "Use conectivos adequados (coesão).",
+      "Certifique-se de ter introdução, desenvolvimento e conclusão.",
+      "Revise gramática, pontuação e ortografia.",
+      "Inclua dados sobre sistemas de saúde, estatísticas de vacinação ou campanhas públicas.",
+      "Sugira exemplos de políticas de prevenção e cuidados básicos de saúde."
+    ]
+  },
+  {
+    "id": 4,
+    "tema": "tecnologia",
+    "tipo": "dica",
+    "texto": "Redações sobre tecnologia devem tratar dos impactos sociais, éticos e econômicos da inovação.",
+    "criterios": {
+      "coerencia_coesao": "Transições entre impactos positivos e negativos devem ser suaves.",
+      "estrutura_argumentativa": "Apresente problema, impacto, soluções e possíveis dilemas éticos.",
+      "ortografia_sintaxe": "Ortografia precisa, atenção a termos técnicos.",
+      "repertorio": "Referências a inovações recentes, debates sobre IA e privacidade de dados."
+    },
+    "dicas": [
+      "Inclua exemplos práticos de tecnologia na sociedade.",
+      "Use linguagem objetiva e clara.",
+      "Verifique se há encadeamento lógico entre ideias (coerência).",
+      "Use expressões de transição e conectivos (coesão).",
+      "Organize o texto em introdução, desenvolvimento e conclusão.",
+      "Corrija ortografia e erros de sintaxe.",
+      "Inclua exemplos de avanços tecnológicos e suas consequências sociais.",
+      "Sugira melhorias ou soluções para desafios éticos causados pela tecnologia."
+    ]
+  },
+  {
+    "id": 5,
+    "tema": "cultura",
+    "tipo": "dica",
+    "texto": "Textos sobre cultura devem abordar diversidade, patrimônio cultural e influência das artes na sociedade.",
+    "criterios": {
+      "coerencia_coesao": "Mantenha encadeamento lógico entre tradição, diversidade e atualidade.",
+      "estrutura_argumentativa": "Introdução, desenvolvimento com exemplos culturais, conclusão contextualizando relevância.",
+      "ortografia_sintaxe": "Evite erros ortográficos, concordância adequada.",
+      "repertorio": "Referências a movimentos artísticos, autores e manifestações culturais brasileiras."
+    },
+    "dicas": [
+      "Cite exemplos concretos de manifestações culturais.",
+      "Use linguagem descritiva sem perder objetividade."
     ]
   }
 ]

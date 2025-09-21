@@ -1,7 +1,5 @@
 from fastapi import FastAPI
-from app.routes import router
+from app.routes import router as retrieval_router
 
-app = FastAPI(title="Redação RAG")
-
-# Inclui rotas
-app.include_router(router)
+app = FastAPI(title="RedacaoRAG API")
+app.include_router(retrieval_router)
