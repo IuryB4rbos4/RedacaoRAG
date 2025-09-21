@@ -21,10 +21,10 @@ if not os.path.exists(config.INDEX_PATH):
 
 index = faiss.read_index(str(config.INDEX_PATH))
 
-def retrieve(query: str, top_k: int = 3, tema_filter: str = None, include_secondary: bool = True):
+def retrieve(query: str, top_k: int = 3, tema_filter: str = None, include_competencias: bool = True):
     """
-    Retorna resultados similares ao query da knowledge_base (FAISS) 
-    e, opcionalmente, adiciona itens da secondary_base.
+    Retorna resultados similares ao query da knowledge_base 
+    e, opcionalmente, adiciona itens da base de competencias.
     """
     query_embedding = model.encode([query], convert_to_numpy=True)
     distances, indices = index.search(np.array(query_embedding, dtype="float32"), top_k)
@@ -43,11 +43,9 @@ def retrieve(query: str, top_k: int = 3, tema_filter: str = None, include_second
             results.append(item)
             seen_ids.add(item["id"])
 
-    # Adiciona base secundária sempre que solicitado
-    if include_secondary:
+    # Adiciona base de competencias sempre que solicitado
+    if include_competencias:
         for item in competencias_base:
-            if tema_filter and item["tema"] != tema_filter:
-                continue
             if item["id"] not in seen_ids:
                 results.append(item)
                 seen_ids.add(item["id"])

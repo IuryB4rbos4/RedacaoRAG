@@ -13,7 +13,7 @@ class EssayRequest(BaseModel):
 @router.post("/analyze")
 async def analyze_essay(request: EssayRequest):
 
-    contextos = search_similar(request.text)
+    contextos = search_similar(request.text, include_competencias=True)
     feedback = generate_feedback(request.text, contextos)
 
     return {
