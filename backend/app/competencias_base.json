@@ -1,0 +1,150 @@
+[
+{
+    "id": 1,
+    "tema": "Competência 1 – modalidade escrita formal",
+    "texto": "Esta competência avalia o domínio da modalidade escrita formal da língua portuguesa em textos dissertativo-argumentativos. O avaliador considera ortografia, acentuação, pontuação, concordância, regência, colocação pronominal, paralelismo, escolha de registro formal e vocabulário preciso. Também observa a construção sintática e a fluidez da leitura.",
+    "criterios": {
+      "coerencia_coesao": "Estrutura clara de períodos e orações, fluidez da leitura.",
+      "estrutura_argumentativa": "Introdução, desenvolvimento e conclusão bem definidos.",
+      "ortografia_sintaxe": "Ortografia, acentuação, pontuação, concordância, regência e paralelismo corretos.",
+      "repertorio": "Uso de vocabulário preciso e adequado à modalidade formal."
+    },
+    "dicas": [
+      "Evite desvios gramaticais e de convenções da escrita.",
+      "Use registro formal, sem marcas de oralidade.",
+      "Escolha vocabulário preciso e adequado ao contexto.",
+      "Estruture bem suas frases e parágrafos para garantir a fluidez.",
+      "Revise ortografia, pontuação e concordância antes de entregar."
+    ],
+    "pontuacao": {
+      "200": "Excelente domínio da modalidade escrita formal; desvios mínimos aceitáveis como excepcionalidade.",
+      "160": "Bom domínio; poucos desvios gramaticais e de convenções da escrita.",
+      "120": "Domínio mediano; alguns desvios gramaticais e de convenções da escrita.",
+      "80": "Domínio insuficiente; muitos desvios gramaticais e de registro.",
+      "40": "Domínio precário; desvios sistemáticos e frequentes.",
+      "0": "Desconhecimento da modalidade escrita formal."
+    }
+  },
+  {
+    "id": 2,
+    "tema": "Competência 2 – Compreensão da proposta e argumentação",
+    "texto": "Avalia se o participante compreende o tema proposto e desenvolve a redação como texto dissertativo-argumentativo, defendendo uma tese com argumentos consistentes e mantendo-se dentro dos limites do tema.",
+    "criterios": {
+      "coerencia_coesao": "Articulação lógica das ideias; encadeamento entre argumentos.",
+      "estrutura_argumentativa": "Introdução com tese clara, desenvolvimento com argumentos e conclusão.",
+      "ortografia_sintaxe": "Adequação formal da escrita, pontuação, concordância e regência.",
+      "repertorio": "Uso de informações de várias áreas do conhecimento para fundamentar a argumentação."
+    },
+    "dicas": [
+      "Leia atentamente a proposta e os textos motivadores para compreender o tema.",
+      "Não copie trechos dos textos motivadores.",
+      "Defina claramente a tese e desenvolva argumentos consistentes.",
+      "Mantenha-se dentro dos limites do tema, evitando tangenciar ou fugir do tema.",
+      "Use exemplos, dados, pesquisas ou fatos comprováveis para fundamentar seus argumentos.",
+      "Evite escrever apenas narrativas ou textos expositivos sem argumentação."
+    ],
+    "pontuacao": {
+      "200": "Desenvolve o tema com argumentação consistente e excelente domínio do texto dissertativo-argumentativo.",
+      "160": "Desenvolve o tema com argumentação consistente e bom domínio do texto dissertativo-argumentativo.",
+      "120": "Desenvolve o tema com argumentação previsível e domínio mediano do texto dissertativo-argumentativo.",
+      "80": "Recorre à cópia de trechos dos textos motivadores ou apresenta domínio insuficiente do texto dissertativo-argumentativo.",
+      "40": "Tangencia o tema ou demonstra domínio precário do texto dissertativo-argumentativo, com traços de outros tipos textuais.",
+      "0": "Fuga ao tema ou não atendimento à estrutura dissertativo-argumentativa; redação anulada."
+    }
+  },
+  {
+    "id": 3,
+    "tema": "Competência 3 – Seleção e organização de informações",
+    "texto": "Avalia se o participante seleciona, relaciona, organiza e interpreta informações, fatos, opiniões e argumentos de forma coerente para defender a tese do texto dissertativo-argumentativo.",
+    "criterios": {
+      "coerencia_coesao": "Relação lógica entre as ideias; progressão temática adequada; encadeamento coerente dos argumentos.",
+      "estrutura_argumentativa": "Tese clara, desenvolvimento com argumentos bem organizados e conclusão consistente.",
+      "ortografia_sintaxe": "Texto inteligível, com vocabulário preciso e sintaxe adequada.",
+      "repertorio": "Seleção de informações relevantes, fatos e opiniões que sustentem o ponto de vista defendido."
+    },
+    "dicas": [
+      "Planeje seu texto antes de escrever (projeto de texto).",
+      "Selecione apenas ideias e informações pertinentes para defender sua tese.",
+      "Organize os argumentos em ordem lógica, garantindo progressão temática.",
+      "Evite informações soltas ou sem relação com o ponto de vista defendido.",
+      "Verifique coerência entre introdução, desenvolvimento e conclusão."
+    ],
+    "pontuacao": {
+      "200": "Apresenta informações, fatos e opiniões consistentes, organizadas e com autoria clara, em defesa de um ponto de vista.",
+      "160": "Apresenta informações, fatos e opiniões organizadas, com indícios de autoria, em defesa de um ponto de vista.",
+      "120": "Apresenta informações, fatos e opiniões limitadas aos textos motivadores, pouco organizadas, em defesa de um ponto de vista.",
+      "80": "Apresenta informações, fatos e opiniões desorganizadas ou contraditórias, limitadas aos textos motivadores, em defesa de um ponto de vista.",
+      "40": "Apresenta informações, fatos e opiniões pouco relacionadas ao tema ou incoerentes, sem defesa de um ponto de vista.",
+      "0": "Apresenta informações, fatos e opiniões não relacionadas ao tema e sem defesa de um ponto de vista."
+    }
+  },
+  {
+    "id": 4,
+    "tema": "Competência 4 – Coesão e mecanismos linguísticos",
+    "texto": "Avalia se o participante demonstra conhecimento dos mecanismos linguísticos necessários para a construção da argumentação, garantindo coesão textual e encadeamento lógico entre ideias.",
+    "criterios": {
+      "coerencia_coesao": "Encadeamento textual entre parágrafos e períodos; uso adequado de pronomes, advérbios, conectivos e substituições lexicais.",
+      "estrutura_argumentativa": "Parágrafos e períodos articulados, com progressão lógica de ideias, sem justaposição sem sentido.",
+      "ortografia_sintaxe": "Uso correto da língua, evitando repetições inadequadas e erros de estrutura.",
+      "repertorio": "Variedade de recursos coesivos aplicados ao longo do texto para reforçar a compreensão e a continuidade das ideias."
+    },
+    "dicas": [
+      "Estruture bem os parágrafos, conectando ideias principais e secundárias.",
+      "Use conectivos para indicar relações de causa-consequência, comparação, contradição, conclusão, entre outros.",
+      "Retome elementos já citados usando pronomes, advérbios ou sinônimos.",
+      "Evite justaposição de frases sem articulação.",
+      "Diversifique os recursos coesivos para garantir fluidez e clareza no texto."
+    ],
+    "pontuacao": {
+      "200": "Articula bem as partes do texto e apresenta repertório diversificado de recursos coesivos.",
+      "160": "Articula as partes do texto com poucas inadequações e apresenta repertório diversificado de recursos coesivos.",
+      "120": "Articula as partes do texto de forma mediana, com inadequações, e apresenta repertório pouco diversificado de recursos coesivos.",
+      "80": "Articula as partes do texto de forma insuficiente, com muitas inadequações e repertório limitado de recursos coesivos.",
+      "40": "Articula as partes do texto de forma precária.",
+      "0": "Não articula as informações."
+    }
+  },
+  {
+    "id": 5,
+    "tema": "Competência 5 – Proposta de intervenção e direitos humanos",
+    "texto": "Avalia se o participante elabora uma proposta de intervenção para o problema abordado, respeitando os direitos humanos, articulada à tese e aos argumentos do texto.",
+    "criterios": {
+      "coesao_argumentativa": "Proposta de intervenção coerente com a tese e os argumentos apresentados.",
+      "respeito_dh": "Não viola os direitos humanos; evita incitação à violência, discriminação ou exclusão.",
+      "detalhamento": "Apresenta ator social, meio de execução e efeito esperado da ação proposta.",
+      "especificidade": "Proposta concreta, específica e consistente com o tema e o desenvolvimento da redação."
+    },
+    "dicas": [
+      "Garanta que a intervenção respeite os direitos humanos e promova cidadania, liberdade e diversidade.",
+      "Inclua quem será o responsável pela execução da ação e como ela será realizada.",
+      "Detalhe os efeitos esperados da intervenção e sua relevância para o problema discutido.",
+      "Evite propostas vagas ou genéricas; seja específico e articulado à tese defendida."
+    ],
+    "pontuacao": {
+      "200": "Elabora muito bem proposta de intervenção, detalhada, relacionada ao tema e articulada à discussão desenvolvida no texto.",
+      "160": "Elabora bem proposta de intervenção relacionada ao tema e articulada à discussão desenvolvida no texto.",
+      "120": "Elabora, de forma mediana, proposta de intervenção relacionada ao tema e articulada à discussão desenvolvida no texto.",
+      "80": "Elabora, de forma insuficiente, proposta de intervenção relacionada ao tema, ou não articulada com a discussão desenvolvida no texto.",
+      "40": "Apresenta proposta de intervenção vaga, precária ou relacionada apenas ao assunto.",
+      "0": "Não apresenta proposta de intervenção ou apresenta proposta não relacionada ao tema ou ao assunto."
+    }
+  },
+  {
+    "id": 6,
+    "tema": "Razões para nota zero",
+    "texto": "A redação receberá nota zero se apresentar uma das seguintes características, configurando desrespeito às regras do Enem:",
+    "criterios": {
+      "lista": [
+        "Fuga total ao tema",
+        "Não obediência à estrutura dissertativo-argumentativa",
+        "Extensão de até 7 linhas",
+        "Cópia integral de textos motivadores",
+        "Impropérios, desenhos ou outras formas propositais de anulação",
+        "Parte deliberadamente desconectada do tema",
+        "Assinatura, nome, apelido ou rubrica fora do local designado",
+        "Texto predominantemente em língua estrangeira",
+        "Folha de redação em branco, mesmo que haja texto no rascunho"
+      ]
+    }
+  }
+]

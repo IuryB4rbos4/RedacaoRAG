@@ -1,5 +1,9 @@
+from app.feedback import generate_feedback
 from fastapi import APIRouter
 from pydantic import BaseModel
+from app.retrieval import retrieve as search_similar
+
+
 
 router = APIRouter()
 
@@ -8,4 +12,12 @@ class EssayRequest(BaseModel):
 
 @router.post("/analyze")
 async def analyze_essay(request: EssayRequest):
-    return {"received_text": request.text, "feedback": "Em breve análise RAG"}
+
+    contextos = search_similar(request.text, include_competencias=True)
+    feedback = generate_feedback(request.text, contextos)
+
+    return {
+        "received_text": request.text,
+        "contextos_relevantes": contextos,
+        "feedback": feedback
+    }
