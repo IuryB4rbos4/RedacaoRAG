@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ReactMarkdown from "react-markdown";
 import "./App.css";
 
 function App() {
@@ -56,9 +57,11 @@ function App() {
         <div className="feedback-box">
           <h2 className="feedback-title">Feedback:</h2>
           <pre className="feedback-content">
-            {typeof feedback === "string"
-              ? feedback
-              : JSON.stringify(feedback, null, 2)}
+            <ReactMarkdown>
+              {typeof feedback === "string"
+                ? feedback
+                : JSON.stringify(feedback, null, 2)}
+            </ReactMarkdown>
           </pre>
         </div>
       )}
